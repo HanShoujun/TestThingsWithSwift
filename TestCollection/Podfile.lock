@@ -1,0 +1,21 @@
+PODS:
+  - MagazineLayout (1.4.1)
+  - XLPagerTabStrip (8.1.1)
+
+DEPENDENCIES:
+  - MagazineLayout
+  - XLPagerTabStrip (= 8.1.1)
+
+SPEC REPOS:
+  https://git.dev.tencent.com/hanshoujun/ZeroPrivateRepository.git:
+    - MagazineLayout
+  https://github.com/cocoapods/specs.git:
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  MagazineLayout: 02642bd6443af9e9ac18782d9a9fe266c9b946c5
+  XLPagerTabStrip: 63166e21c9844fa30f2d95d30f335e73be5caf22
+
+PODFILE CHECKSUM: 2dfe8d32063df6d55c748d32b263bd1b786c5317
+
+COCOAPODS: 1.6.1

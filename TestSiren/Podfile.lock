@@ -1,0 +1,16 @@
+PODS:
+  - Siren (4.2.2)
+
+DEPENDENCIES:
+  - Siren (= 4.2.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Siren
+
+SPEC CHECKSUMS:
+  Siren: 4ce39daf1dd13533ef375c2064d6b8726231c521
+
+PODFILE CHECKSUM: ec2f2a321adde7538e7cd190c39c352a2fa3740a
+
+COCOAPODS: 1.6.1

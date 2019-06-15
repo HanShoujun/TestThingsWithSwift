@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MarketCollectionViewCell" customModule="TestCollection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="157" height="156"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="157" height="156"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVi-V6-HOh">
+                        <rect key="frame" x="0.0" y="0.0" width="157" height="156"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uBg-bN-afb">
+                        <rect key="frame" x="24" y="28" width="109" height="72"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="书名：sldfj" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhj-sV-RRf">
+                        <rect key="frame" x="36.5" y="115" width="84" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="OVi-V6-HOh" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="EaO-9L-aIG"/>
+                <constraint firstItem="uBg-bN-afb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="28" id="KeM-r1-wxy"/>
+                <constraint firstItem="Mhj-sV-RRf" firstAttribute="top" secondItem="uBg-bN-afb" secondAttribute="bottom" constant="15" id="Kya-0s-too"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="OVi-V6-HOh" secondAttribute="bottom" id="QO3-z5-XWI"/>
+                <constraint firstItem="uBg-bN-afb" firstAttribute="centerX" secondItem="Mhj-sV-RRf" secondAttribute="centerX" id="QxX-SI-20g"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="leading" secondItem="OVi-V6-HOh" secondAttribute="leading" id="RWM-14-Anp"/>
+                <constraint firstItem="uBg-bN-afb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="gn4-ZD-MJi"/>
+                <constraint firstAttribute="bottom" secondItem="Mhj-sV-RRf" secondAttribute="bottom" constant="20" id="odO-8B-7Sv"/>
+                <constraint firstItem="Mhj-sV-RRf" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="pwo-CM-res"/>
+                <constraint firstItem="OVi-V6-HOh" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="top" id="yBf-xg-D02"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="157" height="156"/>
+            <point key="canvasLocation" x="223.19999999999999" y="201.49925037481262"/>
+        </collectionViewCell>
+    </objects>
+</document>
