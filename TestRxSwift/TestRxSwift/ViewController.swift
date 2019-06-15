@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+
+        let array = [1]
+        array.forEach { (item) in
+
+        }
+        let enums = array.enumerated()
+
+        let iterator = array.makeIterator()
     }
 
 
