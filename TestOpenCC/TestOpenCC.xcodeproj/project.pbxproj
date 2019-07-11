@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0349106322D71C57000754C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349106222D71C57000754C5 /* AppDelegate.swift */; };
+		0349106522D71C57000754C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349106422D71C57000754C5 /* ViewController.swift */; };
+		0349106822D71C57000754C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0349106622D71C57000754C5 /* Main.storyboard */; };
+		0349106A22D71C58000754C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0349106922D71C58000754C5 /* Assets.xcassets */; };
+		0349106D22D71C58000754C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0349106B22D71C58000754C5 /* LaunchScreen.storyboard */; };
+		0349123822D71DBF000754C5 /* t2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107622D71DBE000754C5 /* t2tw.json */; };
+		0349123922D71DBF000754C5 /* tw2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107722D71DBE000754C5 /* tw2s.json */; };
+		0349123A22D71DBF000754C5 /* hk2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107822D71DBE000754C5 /* hk2s.json */; };
+		0349123B22D71DBF000754C5 /* s2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107922D71DBE000754C5 /* s2hk.json */; };
+		0349123C22D71DBF000754C5 /* t2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107A22D71DBE000754C5 /* t2s.json */; };
+		0349123D22D71DBF000754C5 /* s2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107B22D71DBE000754C5 /* s2tw.json */; };
+		0349123E22D71DBF000754C5 /* s2twp.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107C22D71DBE000754C5 /* s2twp.json */; };
+		0349123F22D71DBF000754C5 /* t2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107D22D71DBE000754C5 /* t2hk.json */; };
+		0349124022D71DBF000754C5 /* s2t.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107E22D71DBE000754C5 /* s2t.json */; };
+		0349124122D71DBF000754C5 /* tw2sp.json in Resources */ = {isa = PBXBuildFile; fileRef = 0349107F22D71DBE000754C5 /* tw2sp.json */; };
+		0349124222D71DBF000754C5 /* OpenCCService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0349108122D71DBE000754C5 /* OpenCCService.mm */; };
+		0349131222D71DBF000754C5 /* HKVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C022D71DBF000754C5 /* HKVariantsRevPhrases.txt */; };
+		0349131322D71DBF000754C5 /* HKVariantsPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C122D71DBF000754C5 /* HKVariantsPhrases.txt */; };
+		0349131422D71DBF000754C5 /* TWPhrasesIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C222D71DBF000754C5 /* TWPhrasesIT.txt */; };
+		0349131522D71DBF000754C5 /* TWVariantsRevPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C322D71DBF000754C5 /* TWVariantsRevPhrases.txt */; };
+		0349131622D71DBF000754C5 /* TWVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C422D71DBF000754C5 /* TWVariants.txt */; };
+		0349131722D71DBF000754C5 /* STPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C522D71DBF000754C5 /* STPhrases.txt */; };
+		0349131822D71DBF000754C5 /* JPVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C622D71DBF000754C5 /* JPVariants.txt */; };
+		0349131922D71DBF000754C5 /* TSCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C722D71DBF000754C5 /* TSCharacters.txt */; };
+		0349131A22D71DBF000754C5 /* STCharacters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C822D71DBF000754C5 /* STCharacters.txt */; };
+		0349131B22D71DBF000754C5 /* HKVariants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911C922D71DBF000754C5 /* HKVariants.txt */; };
+		0349131C22D71DBF000754C5 /* TSPhrases.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911CA22D71DBF000754C5 /* TSPhrases.txt */; };
+		0349131D22D71DBF000754C5 /* TWPhrasesOther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911CB22D71DBF000754C5 /* TWPhrasesOther.txt */; };
+		0349131E22D71DBF000754C5 /* TWPhrasesName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 034911CC22D71DBF000754C5 /* TWPhrasesName.txt */; };
+		0349132722D71DBF000754C5 /* ConversionChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911DA22D71DBF000754C5 /* ConversionChain.cpp */; };
+		0349132822D71DBF000754C5 /* DictGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911DB22D71DBF000754C5 /* DictGroup.cpp */; };
+		0349133122D71DBF000754C5 /* Converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911E822D71DBF000754C5 /* Converter.cpp */; };
+		0349133222D71DBF000754C5 /* PhraseExtract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911E922D71DBF000754C5 /* PhraseExtract.cpp */; };
+		0349133322D71DBF000754C5 /* Segmentation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911EC22D71DBF000754C5 /* Segmentation.cpp */; };
+		0349133722D71DBF000754C5 /* Dict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911F222D71DBF000754C5 /* Dict.cpp */; };
+		0349133822D71DBF000754C5 /* SimpleConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911F522D71DBF000754C5 /* SimpleConverter.cpp */; };
+		0349133922D71DBF000754C5 /* UTF8StringSlice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911F722D71DBF000754C5 /* UTF8StringSlice.cpp */; };
+		0349133A22D71DBF000754C5 /* MaxMatchSegmentation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911F822D71DBF000754C5 /* MaxMatchSegmentation.cpp */; };
+		0349133B22D71DBF000754C5 /* DartsDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911F922D71DBF000754C5 /* DartsDict.cpp */; };
+		0349133C22D71DBF000754C5 /* BinaryDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034911FC22D71DBF000754C5 /* BinaryDict.cpp */; };
+		0349133F22D71DBF000754C5 /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0349120122D71DBF000754C5 /* Config.cpp */; };
+		0349134122D71DBF000754C5 /* TextDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0349120422D71DBF000754C5 /* TextDict.cpp */; };
+		0349134222D71DBF000754C5 /* DictEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0349120622D71DBF000754C5 /* DictEntry.cpp */; };
+		0349134422D71DBF000754C5 /* Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0349120E22D71DBF000754C5 /* Conversion.cpp */; };
+		0349134622D71DBF000754C5 /* DictConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0349121522D71DBF000754C5 /* DictConverter.cpp */; };
+		0349134722D71DBF000754C5 /* UTF8Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0349121622D71DBF000754C5 /* UTF8Util.cpp */; };
+		0349134B22D7262E000754C5 /* TestO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0349134A22D7262E000754C5 /* TestO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0349105F22D71C57000754C5 /* TestOpenCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOpenCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0349106222D71C57000754C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0349106422D71C57000754C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0349106722D71C57000754C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0349106922D71C58000754C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0349106C22D71C58000754C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0349106E22D71C58000754C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0349107622D71DBE000754C5 /* t2tw.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = t2tw.json; sourceTree = "<group>"; };
+		0349107722D71DBE000754C5 /* tw2s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tw2s.json; sourceTree = "<group>"; };
+		0349107822D71DBE000754C5 /* hk2s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hk2s.json; sourceTree = "<group>"; };
+		0349107922D71DBE000754C5 /* s2hk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s2hk.json; sourceTree = "<group>"; };
+		0349107A22D71DBE000754C5 /* t2s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = t2s.json; sourceTree = "<group>"; };
+		0349107B22D71DBE000754C5 /* s2tw.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s2tw.json; sourceTree = "<group>"; };
+		0349107C22D71DBE000754C5 /* s2twp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s2twp.json; sourceTree = "<group>"; };
+		0349107D22D71DBE000754C5 /* t2hk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = t2hk.json; sourceTree = "<group>"; };
+		0349107E22D71DBE000754C5 /* s2t.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s2t.json; sourceTree = "<group>"; };
+		0349107F22D71DBE000754C5 /* tw2sp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tw2sp.json; sourceTree = "<group>"; };
+		0349108022D71DBE000754C5 /* OpenCCService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCCService.h; sourceTree = "<group>"; };
+		0349108122D71DBE000754C5 /* OpenCCService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCCService.mm; sourceTree = "<group>"; };
+		034910AA22D71DBE000754C5 /* darts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = darts.h; sourceTree = "<group>"; };
+		034910AC22D71DBE000754C5 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		034910AD22D71DBE000754C5 /* prettywriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prettywriter.h; sourceTree = "<group>"; };
+		034910AE22D71DBE000754C5 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
+		034910B022D71DBE000754C5 /* strfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strfunc.h; sourceTree = "<group>"; };
+		034910B122D71DBE000754C5 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		034910B222D71DBE000754C5 /* pow10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pow10.h; sourceTree = "<group>"; };
+		034910B322D71DBE000754C5 /* rapidjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rapidjson.h; sourceTree = "<group>"; };
+		034910B422D71DBE000754C5 /* filestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filestream.h; sourceTree = "<group>"; };
+		034910B522D71DBE000754C5 /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = document.h; sourceTree = "<group>"; };
+		034910B622D71DBE000754C5 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		034911C022D71DBF000754C5 /* HKVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsRevPhrases.txt; sourceTree = "<group>"; };
+		034911C122D71DBF000754C5 /* HKVariantsPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariantsPhrases.txt; sourceTree = "<group>"; };
+		034911C222D71DBF000754C5 /* TWPhrasesIT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesIT.txt; sourceTree = "<group>"; };
+		034911C322D71DBF000754C5 /* TWVariantsRevPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariantsRevPhrases.txt; sourceTree = "<group>"; };
+		034911C422D71DBF000754C5 /* TWVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWVariants.txt; sourceTree = "<group>"; };
+		034911C522D71DBF000754C5 /* STPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STPhrases.txt; sourceTree = "<group>"; };
+		034911C622D71DBF000754C5 /* JPVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JPVariants.txt; sourceTree = "<group>"; };
+		034911C722D71DBF000754C5 /* TSCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSCharacters.txt; sourceTree = "<group>"; };
+		034911C822D71DBF000754C5 /* STCharacters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STCharacters.txt; sourceTree = "<group>"; };
+		034911C922D71DBF000754C5 /* HKVariants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HKVariants.txt; sourceTree = "<group>"; };
+		034911CA22D71DBF000754C5 /* TSPhrases.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TSPhrases.txt; sourceTree = "<group>"; };
+		034911CB22D71DBF000754C5 /* TWPhrasesOther.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesOther.txt; sourceTree = "<group>"; };
+		034911CC22D71DBF000754C5 /* TWPhrasesName.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TWPhrasesName.txt; sourceTree = "<group>"; };
+		034911D922D71DBF000754C5 /* Conversion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Conversion.hpp; sourceTree = "<group>"; };
+		034911DA22D71DBF000754C5 /* ConversionChain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConversionChain.cpp; sourceTree = "<group>"; };
+		034911DB22D71DBF000754C5 /* DictGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DictGroup.cpp; sourceTree = "<group>"; };
+		034911E322D71DBF000754C5 /* DictConverter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DictConverter.hpp; sourceTree = "<group>"; };
+		034911E622D71DBF000754C5 /* UTF8Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UTF8Util.hpp; sourceTree = "<group>"; };
+		034911E822D71DBF000754C5 /* Converter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Converter.cpp; sourceTree = "<group>"; };
+		034911E922D71DBF000754C5 /* PhraseExtract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhraseExtract.cpp; sourceTree = "<group>"; };
+		034911EA22D71DBF000754C5 /* BinaryDict.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryDict.hpp; sourceTree = "<group>"; };
+		034911EB22D71DBF000754C5 /* Export.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Export.hpp; sourceTree = "<group>"; };
+		034911EC22D71DBF000754C5 /* Segmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Segmentation.cpp; sourceTree = "<group>"; };
+		034911ED22D71DBF000754C5 /* SerializableDict.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SerializableDict.hpp; sourceTree = "<group>"; };
+		034911F122D71DBF000754C5 /* Config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Config.hpp; sourceTree = "<group>"; };
+		034911F222D71DBF000754C5 /* Dict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dict.cpp; sourceTree = "<group>"; };
+		034911F322D71DBF000754C5 /* TextDict.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TextDict.hpp; sourceTree = "<group>"; };
+		034911F522D71DBF000754C5 /* SimpleConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleConverter.cpp; sourceTree = "<group>"; };
+		034911F622D71DBF000754C5 /* DictEntry.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DictEntry.hpp; sourceTree = "<group>"; };
+		034911F722D71DBF000754C5 /* UTF8StringSlice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTF8StringSlice.cpp; sourceTree = "<group>"; };
+		034911F822D71DBF000754C5 /* MaxMatchSegmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxMatchSegmentation.cpp; sourceTree = "<group>"; };
+		034911F922D71DBF000754C5 /* DartsDict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DartsDict.cpp; sourceTree = "<group>"; };
+		034911FA22D71DBF000754C5 /* Converter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Converter.hpp; sourceTree = "<group>"; };
+		034911FB22D71DBF000754C5 /* PhraseExtract.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PhraseExtract.hpp; sourceTree = "<group>"; };
+		034911FC22D71DBF000754C5 /* BinaryDict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryDict.cpp; sourceTree = "<group>"; };
+		034911FF22D71DBF000754C5 /* Segmentation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Segmentation.hpp; sourceTree = "<group>"; };
+		0349120022D71DBF000754C5 /* Optional.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Optional.hpp; sourceTree = "<group>"; };
+		0349120122D71DBF000754C5 /* Config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Config.cpp; sourceTree = "<group>"; };
+		0349120222D71DBF000754C5 /* Dict.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dict.hpp; sourceTree = "<group>"; };
+		0349120422D71DBF000754C5 /* TextDict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextDict.cpp; sourceTree = "<group>"; };
+		0349120522D71DBF000754C5 /* Lexicon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lexicon.hpp; sourceTree = "<group>"; };
+		0349120622D71DBF000754C5 /* DictEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DictEntry.cpp; sourceTree = "<group>"; };
+		0349120722D71DBF000754C5 /* SimpleConverter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleConverter.hpp; sourceTree = "<group>"; };
+		0349120822D71DBF000754C5 /* DartsDict.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DartsDict.hpp; sourceTree = "<group>"; };
+		0349120922D71DBF000754C5 /* UTF8StringSlice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UTF8StringSlice.hpp; sourceTree = "<group>"; };
+		0349120A22D71DBF000754C5 /* MaxMatchSegmentation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MaxMatchSegmentation.hpp; sourceTree = "<group>"; };
+		0349120D22D71DBF000754C5 /* Segments.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Segments.hpp; sourceTree = "<group>"; };
+		0349120E22D71DBF000754C5 /* Conversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Conversion.cpp; sourceTree = "<group>"; };
+		0349120F22D71DBF000754C5 /* ConversionChain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConversionChain.hpp; sourceTree = "<group>"; };
+		0349121022D71DBF000754C5 /* Common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
+		0349121222D71DBF000754C5 /* DictGroup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DictGroup.hpp; sourceTree = "<group>"; };
+		0349121322D71DBF000754C5 /* opencc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opencc.h; sourceTree = "<group>"; };
+		0349121522D71DBF000754C5 /* DictConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DictConverter.cpp; sourceTree = "<group>"; };
+		0349121622D71DBF000754C5 /* UTF8Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTF8Util.cpp; sourceTree = "<group>"; };
+		0349121822D71DBF000754C5 /* Exception.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Exception.hpp; sourceTree = "<group>"; };
+		0349134922D7262E000754C5 /* TestO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestO.h; sourceTree = "<group>"; };
+		0349134A22D7262E000754C5 /* TestO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestO.m; sourceTree = "<group>"; };
+		0349134C22D726C0000754C5 /* TestOpenCC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestOpenCC-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0349105C22D71C57000754C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0349105622D71C57000754C5 = {
+			isa = PBXGroup;
+			children = (
+				0349106122D71C57000754C5 /* TestOpenCC */,
+				0349106022D71C57000754C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0349106022D71C57000754C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0349105F22D71C57000754C5 /* TestOpenCC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0349106122D71C57000754C5 /* TestOpenCC */ = {
+			isa = PBXGroup;
+			children = (
+				0349108222D71DBE000754C5 /* OpenCC */,
+				0349107422D71DBE000754C5 /* OpenCCService */,
+				0349106222D71C57000754C5 /* AppDelegate.swift */,
+				0349106422D71C57000754C5 /* ViewController.swift */,
+				0349134922D7262E000754C5 /* TestO.h */,
+				0349134A22D7262E000754C5 /* TestO.m */,
+				0349106622D71C57000754C5 /* Main.storyboard */,
+				0349106922D71C58000754C5 /* Assets.xcassets */,
+				0349106B22D71C58000754C5 /* LaunchScreen.storyboard */,
+				0349106E22D71C58000754C5 /* Info.plist */,
+				0349134C22D726C0000754C5 /* TestOpenCC-Bridging-Header.h */,
+			);
+			path = TestOpenCC;
+			sourceTree = "<group>";
+		};
+		0349107422D71DBE000754C5 /* OpenCCService */ = {
+			isa = PBXGroup;
+			children = (
+				0349107522D71DBE000754C5 /* config */,
+				0349108022D71DBE000754C5 /* OpenCCService.h */,
+				0349108122D71DBE000754C5 /* OpenCCService.mm */,
+			);
+			path = OpenCCService;
+			sourceTree = "<group>";
+		};
+		0349107522D71DBE000754C5 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				0349107622D71DBE000754C5 /* t2tw.json */,
+				0349107722D71DBE000754C5 /* tw2s.json */,
+				0349107822D71DBE000754C5 /* hk2s.json */,
+				0349107922D71DBE000754C5 /* s2hk.json */,
+				0349107A22D71DBE000754C5 /* t2s.json */,
+				0349107B22D71DBE000754C5 /* s2tw.json */,
+				0349107C22D71DBE000754C5 /* s2twp.json */,
+				0349107D22D71DBE000754C5 /* t2hk.json */,
+				0349107E22D71DBE000754C5 /* s2t.json */,
+				0349107F22D71DBE000754C5 /* tw2sp.json */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		0349108222D71DBE000754C5 /* OpenCC */ = {
+			isa = PBXGroup;
+			children = (
+				034910A822D71DBE000754C5 /* deps */,
+				034911AE22D71DBF000754C5 /* data */,
+				034911D722D71DBF000754C5 /* src */,
+			);
+			path = OpenCC;
+			sourceTree = "<group>";
+		};
+		034910A822D71DBE000754C5 /* deps */ = {
+			isa = PBXGroup;
+			children = (
+				034910A922D71DBE000754C5 /* darts-clone */,
+				034910AB22D71DBE000754C5 /* rapidjson-0.11 */,
+			);
+			path = deps;
+			sourceTree = "<group>";
+		};
+		034910A922D71DBE000754C5 /* darts-clone */ = {
+			isa = PBXGroup;
+			children = (
+				034910AA22D71DBE000754C5 /* darts.h */,
+			);
+			path = "darts-clone";
+			sourceTree = "<group>";
+		};
+		034910AB22D71DBE000754C5 /* rapidjson-0.11 */ = {
+			isa = PBXGroup;
+			children = (
+				034910AC22D71DBE000754C5 /* reader.h */,
+				034910AD22D71DBE000754C5 /* prettywriter.h */,
+				034910AE22D71DBE000754C5 /* stringbuffer.h */,
+				034910AF22D71DBE000754C5 /* internal */,
+				034910B322D71DBE000754C5 /* rapidjson.h */,
+				034910B422D71DBE000754C5 /* filestream.h */,
+				034910B522D71DBE000754C5 /* document.h */,
+				034910B622D71DBE000754C5 /* writer.h */,
+			);
+			path = "rapidjson-0.11";
+			sourceTree = "<group>";
+		};
+		034910AF22D71DBE000754C5 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				034910B022D71DBE000754C5 /* strfunc.h */,
+				034910B122D71DBE000754C5 /* stack.h */,
+				034910B222D71DBE000754C5 /* pow10.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		034911AE22D71DBF000754C5 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				034911BF22D71DBF000754C5 /* dictionary */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		034911BF22D71DBF000754C5 /* dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				034911C022D71DBF000754C5 /* HKVariantsRevPhrases.txt */,
+				034911C122D71DBF000754C5 /* HKVariantsPhrases.txt */,
+				034911C222D71DBF000754C5 /* TWPhrasesIT.txt */,
+				034911C322D71DBF000754C5 /* TWVariantsRevPhrases.txt */,
+				034911C422D71DBF000754C5 /* TWVariants.txt */,
+				034911C522D71DBF000754C5 /* STPhrases.txt */,
+				034911C622D71DBF000754C5 /* JPVariants.txt */,
+				034911C722D71DBF000754C5 /* TSCharacters.txt */,
+				034911C822D71DBF000754C5 /* STCharacters.txt */,
+				034911C922D71DBF000754C5 /* HKVariants.txt */,
+				034911CA22D71DBF000754C5 /* TSPhrases.txt */,
+				034911CB22D71DBF000754C5 /* TWPhrasesOther.txt */,
+				034911CC22D71DBF000754C5 /* TWPhrasesName.txt */,
+			);
+			path = dictionary;
+			sourceTree = "<group>";
+		};
+		034911D722D71DBF000754C5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				034911D922D71DBF000754C5 /* Conversion.hpp */,
+				034911DA22D71DBF000754C5 /* ConversionChain.cpp */,
+				034911DB22D71DBF000754C5 /* DictGroup.cpp */,
+				034911E322D71DBF000754C5 /* DictConverter.hpp */,
+				034911E622D71DBF000754C5 /* UTF8Util.hpp */,
+				034911E822D71DBF000754C5 /* Converter.cpp */,
+				034911E922D71DBF000754C5 /* PhraseExtract.cpp */,
+				034911EA22D71DBF000754C5 /* BinaryDict.hpp */,
+				034911EB22D71DBF000754C5 /* Export.hpp */,
+				034911EC22D71DBF000754C5 /* Segmentation.cpp */,
+				034911ED22D71DBF000754C5 /* SerializableDict.hpp */,
+				034911F122D71DBF000754C5 /* Config.hpp */,
+				034911F222D71DBF000754C5 /* Dict.cpp */,
+				034911F322D71DBF000754C5 /* TextDict.hpp */,
+				034911F522D71DBF000754C5 /* SimpleConverter.cpp */,
+				034911F622D71DBF000754C5 /* DictEntry.hpp */,
+				034911F722D71DBF000754C5 /* UTF8StringSlice.cpp */,
+				034911F822D71DBF000754C5 /* MaxMatchSegmentation.cpp */,
+				034911F922D71DBF000754C5 /* DartsDict.cpp */,
+				034911FA22D71DBF000754C5 /* Converter.hpp */,
+				034911FB22D71DBF000754C5 /* PhraseExtract.hpp */,
+				034911FC22D71DBF000754C5 /* BinaryDict.cpp */,
+				034911FF22D71DBF000754C5 /* Segmentation.hpp */,
+				0349120022D71DBF000754C5 /* Optional.hpp */,
+				0349120122D71DBF000754C5 /* Config.cpp */,
+				0349120222D71DBF000754C5 /* Dict.hpp */,
+				0349120422D71DBF000754C5 /* TextDict.cpp */,
+				0349120522D71DBF000754C5 /* Lexicon.hpp */,
+				0349120622D71DBF000754C5 /* DictEntry.cpp */,
+				0349120722D71DBF000754C5 /* SimpleConverter.hpp */,
+				0349120822D71DBF000754C5 /* DartsDict.hpp */,
+				0349120922D71DBF000754C5 /* UTF8StringSlice.hpp */,
+				0349120A22D71DBF000754C5 /* MaxMatchSegmentation.hpp */,
+				0349120D22D71DBF000754C5 /* Segments.hpp */,
+				0349120E22D71DBF000754C5 /* Conversion.cpp */,
+				0349120F22D71DBF000754C5 /* ConversionChain.hpp */,
+				0349121022D71DBF000754C5 /* Common.hpp */,
+				0349121222D71DBF000754C5 /* DictGroup.hpp */,
+				0349121322D71DBF000754C5 /* opencc.h */,
+				0349121522D71DBF000754C5 /* DictConverter.cpp */,
+				0349121622D71DBF000754C5 /* UTF8Util.cpp */,
+				0349121822D71DBF000754C5 /* Exception.hpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0349105E22D71C57000754C5 /* TestOpenCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0349107122D71C58000754C5 /* Build configuration list for PBXNativeTarget "TestOpenCC" */;
+			buildPhases = (
+				0349105B22D71C57000754C5 /* Sources */,
+				0349105C22D71C57000754C5 /* Frameworks */,
+				0349105D22D71C57000754C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestOpenCC;
+			productName = TestOpenCC;
+			productReference = 0349105F22D71C57000754C5 /* TestOpenCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0349105722D71C57000754C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = hsj;
+				TargetAttributes = {
+					0349105E22D71C57000754C5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0349105A22D71C57000754C5 /* Build configuration list for PBXProject "TestOpenCC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0349105622D71C57000754C5;
+			productRefGroup = 0349106022D71C57000754C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0349105E22D71C57000754C5 /* TestOpenCC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0349105D22D71C57000754C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0349131A22D71DBF000754C5 /* STCharacters.txt in Resources */,
+				0349106D22D71C58000754C5 /* LaunchScreen.storyboard in Resources */,
+				0349131E22D71DBF000754C5 /* TWPhrasesName.txt in Resources */,
+				0349131D22D71DBF000754C5 /* TWPhrasesOther.txt in Resources */,
+				0349131C22D71DBF000754C5 /* TSPhrases.txt in Resources */,
+				0349131822D71DBF000754C5 /* JPVariants.txt in Resources */,
+				0349123C22D71DBF000754C5 /* t2s.json in Resources */,
+				0349131422D71DBF000754C5 /* TWPhrasesIT.txt in Resources */,
+				0349123A22D71DBF000754C5 /* hk2s.json in Resources */,
+				0349106A22D71C58000754C5 /* Assets.xcassets in Resources */,
+				0349124122D71DBF000754C5 /* tw2sp.json in Resources */,
+				0349123B22D71DBF000754C5 /* s2hk.json in Resources */,
+				0349131322D71DBF000754C5 /* HKVariantsPhrases.txt in Resources */,
+				0349124022D71DBF000754C5 /* s2t.json in Resources */,
+				0349131922D71DBF000754C5 /* TSCharacters.txt in Resources */,
+				0349131522D71DBF000754C5 /* TWVariantsRevPhrases.txt in Resources */,
+				0349131B22D71DBF000754C5 /* HKVariants.txt in Resources */,
+				0349123922D71DBF000754C5 /* tw2s.json in Resources */,
+				0349131222D71DBF000754C5 /* HKVariantsRevPhrases.txt in Resources */,
+				0349123D22D71DBF000754C5 /* s2tw.json in Resources */,
+				0349123822D71DBF000754C5 /* t2tw.json in Resources */,
+				0349123F22D71DBF000754C5 /* t2hk.json in Resources */,
+				0349123E22D71DBF000754C5 /* s2twp.json in Resources */,
+				0349106822D71C57000754C5 /* Main.storyboard in Resources */,
+				0349131622D71DBF000754C5 /* TWVariants.txt in Resources */,
+				0349131722D71DBF000754C5 /* STPhrases.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0349105B22D71C57000754C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0349134222D71DBF000754C5 /* DictEntry.cpp in Sources */,
+				0349133222D71DBF000754C5 /* PhraseExtract.cpp in Sources */,
+				0349133822D71DBF000754C5 /* SimpleConverter.cpp in Sources */,
+				0349134B22D7262E000754C5 /* TestO.m in Sources */,
+				0349134122D71DBF000754C5 /* TextDict.cpp in Sources */,
+				0349132822D71DBF000754C5 /* DictGroup.cpp in Sources */,
+				0349133F22D71DBF000754C5 /* Config.cpp in Sources */,
+				0349133322D71DBF000754C5 /* Segmentation.cpp in Sources */,
+				0349134622D71DBF000754C5 /* DictConverter.cpp in Sources */,
+				0349134422D71DBF000754C5 /* Conversion.cpp in Sources */,
+				0349124222D71DBF000754C5 /* OpenCCService.mm in Sources */,
+				0349106522D71C57000754C5 /* ViewController.swift in Sources */,
+				0349133B22D71DBF000754C5 /* DartsDict.cpp in Sources */,
+				0349133122D71DBF000754C5 /* Converter.cpp in Sources */,
+				0349133C22D71DBF000754C5 /* BinaryDict.cpp in Sources */,
+				0349133722D71DBF000754C5 /* Dict.cpp in Sources */,
+				0349134722D71DBF000754C5 /* UTF8Util.cpp in Sources */,
+				0349133A22D71DBF000754C5 /* MaxMatchSegmentation.cpp in Sources */,
+				0349106322D71C57000754C5 /* AppDelegate.swift in Sources */,
+				0349133922D71DBF000754C5 /* UTF8StringSlice.cpp in Sources */,
+				0349132722D71DBF000754C5 /* ConversionChain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0349106622D71C57000754C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0349106722D71C57000754C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0349106B22D71C58000754C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0349106C22D71C58000754C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0349106F22D71C58000754C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0349107022D71C58000754C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0349107222D71C58000754C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYQM3Q4758;
+				INFOPLIST_FILE = TestOpenCC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.z.algorithm.test.TestOpenCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestOpenCC/TestOpenCC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0349107322D71C58000754C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYQM3Q4758;
+				INFOPLIST_FILE = TestOpenCC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.z.algorithm.test.TestOpenCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestOpenCC/TestOpenCC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0349105A22D71C57000754C5 /* Build configuration list for PBXProject "TestOpenCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0349106F22D71C58000754C5 /* Debug */,
+				0349107022D71C58000754C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0349107122D71C58000754C5 /* Build configuration list for PBXNativeTarget "TestOpenCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0349107222D71C58000754C5 /* Debug */,
+				0349107322D71C58000754C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0349105722D71C57000754C5 /* Project object */;
+}
