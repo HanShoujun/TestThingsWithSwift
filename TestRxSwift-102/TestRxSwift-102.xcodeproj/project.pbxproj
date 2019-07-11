@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0347495422D1E84F001B2E13 /* NetStatusSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0347495322D1E84F001B2E13 /* NetStatusSampleViewController.swift */; };
+		0347495622D1EB94001B2E13 /* Observable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0347495522D1EB94001B2E13 /* Observable+Operators.swift */; };
+		036A4AB622D42BA600269C54 /* CollectViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4AB522D42BA600269C54 /* CollectViewViewController.swift */; };
+		036A4AB822D42C9100269C54 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4AB722D42C9100269C54 /* MyCollectionViewCell.swift */; };
+		036A4AE022D4E20000269C54 /* MagazineDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4ADE22D4E20000269C54 /* MagazineDataProvider.swift */; };
+		036A4AE122D4E20000269C54 /* MagazineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4ADF22D4E20000269C54 /* MagazineData.swift */; };
+		036A4AE322D4EE6600269C54 /* MagazineLayout+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4AE222D4EE6600269C54 /* MagazineLayout+Rx.swift */; };
 		9F7692E07A364F07B37377D4 /* Pods_TestRxSwift_102.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B80C6AB1542834756730B1 /* Pods_TestRxSwift_102.framework */; };
 		AEE53A1B22BF77F300908F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE53A1A22BF77F300908F91 /* AppDelegate.swift */; };
 		AEE53A1D22BF77F300908F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE53A1C22BF77F300908F91 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0347495322D1E84F001B2E13 /* NetStatusSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetStatusSampleViewController.swift; sourceTree = "<group>"; };
+		0347495522D1EB94001B2E13 /* Observable+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Operators.swift"; sourceTree = "<group>"; };
+		036A4AB522D42BA600269C54 /* CollectViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectViewViewController.swift; sourceTree = "<group>"; };
+		036A4AB722D42C9100269C54 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		036A4ADE22D4E20000269C54 /* MagazineDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineDataProvider.swift; sourceTree = "<group>"; };
+		036A4ADF22D4E20000269C54 /* MagazineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineData.swift; sourceTree = "<group>"; };
+		036A4AE222D4EE6600269C54 /* MagazineLayout+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagazineLayout+Rx.swift"; sourceTree = "<group>"; };
 		0A040B6128ABEA246D6D448B /* Pods-TestRxSwift-102.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRxSwift-102.debug.xcconfig"; path = "Target Support Files/Pods-TestRxSwift-102/Pods-TestRxSwift-102.debug.xcconfig"; sourceTree = "<group>"; };
 		AE345CAE0B3D9E807DDA14BB /* Pods-TestRxSwift-102.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRxSwift-102.release.xcconfig"; path = "Target Support Files/Pods-TestRxSwift-102/Pods-TestRxSwift-102.release.xcconfig"; sourceTree = "<group>"; };
 		AEE53A1722BF77F300908F91 /* TestRxSwift-102.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRxSwift-102.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		036A4ADD22D4E20000269C54 /* MagazineUtils */ = {
+			isa = PBXGroup;
+			children = (
+				036A4ADE22D4E20000269C54 /* MagazineDataProvider.swift */,
+				036A4ADF22D4E20000269C54 /* MagazineData.swift */,
+				036A4AE222D4EE6600269C54 /* MagazineLayout+Rx.swift */,
+			);
+			path = MagazineUtils;
+			sourceTree = "<group>";
+		};
 		7B4196DA2FE236242B77C226 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,8 +93,13 @@
 		AEE53A1922BF77F300908F91 /* TestRxSwift-102 */ = {
 			isa = PBXGroup;
 			children = (
+				036A4ADD22D4E20000269C54 /* MagazineUtils */,
+				0347495522D1EB94001B2E13 /* Observable+Operators.swift */,
 				AEE53A1A22BF77F300908F91 /* AppDelegate.swift */,
 				AEE53A1C22BF77F300908F91 /* ViewController.swift */,
+				0347495322D1E84F001B2E13 /* NetStatusSampleViewController.swift */,
+				036A4AB522D42BA600269C54 /* CollectViewViewController.swift */,
+				036A4AB722D42C9100269C54 /* MyCollectionViewCell.swift */,
 				AEE53A1E22BF77F300908F91 /* Main.storyboard */,
 				AEE53A2122BF77F400908F91 /* Assets.xcassets */,
 				AEE53A2322BF77F400908F91 /* LaunchScreen.storyboard */,
@@ -85,7 +114,6 @@
 				0A040B6128ABEA246D6D448B /* Pods-TestRxSwift-102.debug.xcconfig */,
 				AE345CAE0B3D9E807DDA14BB /* Pods-TestRxSwift-102.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,8 +232,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0347495622D1EB94001B2E13 /* Observable+Operators.swift in Sources */,
 				AEE53A1D22BF77F300908F91 /* ViewController.swift in Sources */,
+				036A4AB822D42C9100269C54 /* MyCollectionViewCell.swift in Sources */,
+				036A4AE122D4E20000269C54 /* MagazineData.swift in Sources */,
+				036A4AB622D42BA600269C54 /* CollectViewViewController.swift in Sources */,
+				036A4AE022D4E20000269C54 /* MagazineDataProvider.swift in Sources */,
 				AEE53A1B22BF77F300908F91 /* AppDelegate.swift in Sources */,
+				036A4AE322D4EE6600269C54 /* MagazineLayout+Rx.swift in Sources */,
+				0347495422D1E84F001B2E13 /* NetStatusSampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = LYQM3Q4758;
 				INFOPLIST_FILE = "TestRxSwift-102/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

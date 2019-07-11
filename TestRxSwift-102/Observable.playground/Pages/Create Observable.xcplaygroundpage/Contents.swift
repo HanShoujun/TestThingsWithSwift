@@ -85,8 +85,8 @@ test("Create Observable") {
     deferredObservable.subscribe(handler).disposed(by: disposeBag)
 
     /// interval：
-    let interval = RxTimeInterval.seconds(2)
-    let scheduler = MainScheduler.instance
+//    let interval = RxTimeInterval.seconds(2)
+//    let scheduler = MainScheduler.instance
 //    let intervalObservable = Observable.interval(interval, scheduler: scheduler)
 
     /// timer
