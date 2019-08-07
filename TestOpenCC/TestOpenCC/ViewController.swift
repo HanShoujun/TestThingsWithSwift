@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let openccService = OpenCCService(converterType: OpenCCServiceConverterType.S2T)
+    let openccService = OpenCCService(converterType: .S2HK)
 
     @IBOutlet weak var original: UILabel!
     @IBOutlet weak var convert: UILabel!

@@ -102,6 +102,33 @@
                                             <segue destination="zVF-jk-yQS" kind="show" id="Cpd-Vc-r86"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="MjU-mV-XS1" detailTextLabel="KQ5-py-0qw" rowHeight="88" style="IBUITableViewCellStyleSubtitle" id="OEd-xF-APl">
+                                        <rect key="frame" x="0.0" y="241" width="375" height="88"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OEd-xF-APl" id="Ef5-an-Reg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="87.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="delay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MjU-mV-XS1">
+                                                    <rect key="frame" x="16" y="24" width="41" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="delay操作符" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KQ5-py-0qw">
+                                                    <rect key="frame" x="16" y="47.5" width="67" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Dk5-ro-eDb" kind="show" id="GKQ-2o-6Xd"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -161,6 +188,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uWH-wn-Cna" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1097" y="331"/>
+        </scene>
+        <!--Test Delay View Controller-->
+        <scene sceneID="tZx-5K-SuX">
+            <objects>
+                <viewController storyboardIdentifier="TestDelayViewController" id="Dk5-ro-eDb" customClass="TestDelayViewController" customModule="TestRxSwift_102" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GXz-Ed-GEi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3a-3H-bYm">
+                                <rect key="frame" x="164.5" y="350.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="Dk5-ro-eDb" eventType="touchUpInside" id="b87-u6-LQp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="g3a-3H-bYm" firstAttribute="centerY" secondItem="qRB-pW-rYh" secondAttribute="centerY" id="PcR-ea-hUE"/>
+                            <constraint firstItem="g3a-3H-bYm" firstAttribute="centerX" secondItem="qRB-pW-rYh" secondAttribute="centerX" id="xAM-V8-cXs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qRB-pW-rYh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kbt-85-Ify" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1908" y="331"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">

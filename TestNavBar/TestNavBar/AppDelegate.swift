@@ -1,14 +1,12 @@
 //
 //  AppDelegate.swift
-//  TestRxSwift-102
+//  TestNavBar
 //
-//  Created by hsj on 2019/6/23.
+//  Created by zero on 2019/8/1.
 //  Copyright © 2019 hsj. All rights reserved.
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,13 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-        NSLog("RxSwift.Resurces:%d", RxSwift.Resources.total)
-
-        _ = Observable<Int>.interval(RxTimeInterval.seconds(3), scheduler: MainScheduler.instance)
-            .subscribe { _ in
-                NSLog("RxSwift.Resurces:%d", RxSwift.Resources.total)
-            }
         
+
         return true
     }
 

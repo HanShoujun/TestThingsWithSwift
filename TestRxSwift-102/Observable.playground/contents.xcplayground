@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='Create Observable'/>
         <page name='Subscribe Observable'/>
         <page name='Observer'/>
         <page name='Subjects'/>
-        <page name='Operators'/>
-        <page name='Operators 2'/>
+        <page name='Operators Create Observables'/>
+        <page name='Operators Transforming Observables'/>
+        <page name='Operators Filtering Observables'/>
         <page name='Operators 3'/>
-        <page name='Operators Debug'/>
+        <page name='Operators Combining Observables'/>
+        <page name='Operators Utils'/>
+        <page name='Error Handling Operators'/>
+        <page name='Connectable Observable Operators'/>
+        <page name='Traits'/>
+        <page name='Swift Extension'/>
     </pages>
 </playground>

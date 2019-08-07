@@ -14,6 +14,7 @@
 		036A4AE022D4E20000269C54 /* MagazineDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4ADE22D4E20000269C54 /* MagazineDataProvider.swift */; };
 		036A4AE122D4E20000269C54 /* MagazineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4ADF22D4E20000269C54 /* MagazineData.swift */; };
 		036A4AE322D4EE6600269C54 /* MagazineLayout+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4AE222D4EE6600269C54 /* MagazineLayout+Rx.swift */; };
+		0398B09522DC9B7500E4D49D /* TestDelayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398B09422DC9B7500E4D49D /* TestDelayViewController.swift */; };
 		9F7692E07A364F07B37377D4 /* Pods_TestRxSwift_102.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B80C6AB1542834756730B1 /* Pods_TestRxSwift_102.framework */; };
 		AEE53A1B22BF77F300908F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE53A1A22BF77F300908F91 /* AppDelegate.swift */; };
 		AEE53A1D22BF77F300908F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE53A1C22BF77F300908F91 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		036A4ADE22D4E20000269C54 /* MagazineDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineDataProvider.swift; sourceTree = "<group>"; };
 		036A4ADF22D4E20000269C54 /* MagazineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineData.swift; sourceTree = "<group>"; };
 		036A4AE222D4EE6600269C54 /* MagazineLayout+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagazineLayout+Rx.swift"; sourceTree = "<group>"; };
+		0398B09422DC9B7500E4D49D /* TestDelayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDelayViewController.swift; sourceTree = "<group>"; };
 		0A040B6128ABEA246D6D448B /* Pods-TestRxSwift-102.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRxSwift-102.debug.xcconfig"; path = "Target Support Files/Pods-TestRxSwift-102/Pods-TestRxSwift-102.debug.xcconfig"; sourceTree = "<group>"; };
 		AE345CAE0B3D9E807DDA14BB /* Pods-TestRxSwift-102.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRxSwift-102.release.xcconfig"; path = "Target Support Files/Pods-TestRxSwift-102/Pods-TestRxSwift-102.release.xcconfig"; sourceTree = "<group>"; };
 		AEE53A1722BF77F300908F91 /* TestRxSwift-102.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRxSwift-102.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 				0347495322D1E84F001B2E13 /* NetStatusSampleViewController.swift */,
 				036A4AB522D42BA600269C54 /* CollectViewViewController.swift */,
 				036A4AB722D42C9100269C54 /* MyCollectionViewCell.swift */,
+				0398B09422DC9B7500E4D49D /* TestDelayViewController.swift */,
 				AEE53A1E22BF77F300908F91 /* Main.storyboard */,
 				AEE53A2122BF77F400908F91 /* Assets.xcassets */,
 				AEE53A2322BF77F400908F91 /* LaunchScreen.storyboard */,
@@ -240,6 +243,7 @@
 				036A4AE022D4E20000269C54 /* MagazineDataProvider.swift in Sources */,
 				AEE53A1B22BF77F300908F91 /* AppDelegate.swift in Sources */,
 				036A4AE322D4EE6600269C54 /* MagazineLayout+Rx.swift in Sources */,
+				0398B09522DC9B7500E4D49D /* TestDelayViewController.swift in Sources */,
 				0347495422D1E84F001B2E13 /* NetStatusSampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

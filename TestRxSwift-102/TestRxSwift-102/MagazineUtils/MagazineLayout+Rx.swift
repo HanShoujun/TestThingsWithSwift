@@ -12,13 +12,4 @@ import MagazineLayout
 
 extension Reactive where Base: UICollectionView {
 
-    public var itemSelected: ControlEvent<IndexPath> {
-        let source = delegate.methodInvoked(#selector(UICollectionViewDelegate.collectionView(_:didSelectItemAt:)))
-            .map { a in
-                return try castOrThrow(IndexPath.self, a[1])
-        }
-
-        return ControlEvent(events: source)
-    }
-
 }
