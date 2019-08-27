@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'TestSwiftStoreKit' do
+  
+  pod 'PKHUD'
+  pod 'SwiftyStoreKit'
+  pod 'KeychainAccess'
+
+end

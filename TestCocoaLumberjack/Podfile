@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+ use_frameworks!
+ platform :ios, '10.0'
+
+target 'TestCocoaLumberjack' do
+
+  pod 'CocoaLumberjack/Swift'
+  pod 'DoraemonKit/Core', '~> 1.1.9', :configurations => ['Debug']
+  pod 'DoraemonKit/WithLogger', '~> 1.1.9', :configurations => ['Debug']
+  pod 'DoraemonKit/WithLoad', '~> 1.1.9', :configurations => ['Debug']
+
+end
